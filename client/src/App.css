@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+.app {
+  --carousel-width: 100vw;
+  --color-palet-blue: #21bed9;
+  --color-palet-green: #ddf564;
+  --color-palet-purple: #e872a8;
+  --color-palet-orange: #fb9632;
+  --color-palet-yellow: #f6e751;
+
+  font-family: 'Cocogoose',sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* Cocogoose Font */
+
+@font-face {
+  font-family: 'Cocogoose';
+  src: url('./media/fonts/cocogoose/Cocogoose\ Pro-trial.ttf')  format('truetype');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'CocogooseItalic';
+  src: url('./media/fonts/cocogoose/Cocogoose\ Pro\ Italic-trial.ttf')  format('truetype');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: 'CocogooseLight';
+  src: url('./media/fonts/cocogoose/Cocogoose\ Pro\ Light-trial.ttf')  format('truetype');
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: 'CocogooseLightItalic';
+  src: url('./media/fonts/cocogoose/Cocogoose\ Pro\ Light\ Italic-trial.ttf')  format('truetype');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: 'CocogooseSemiLight';
+  src: url('./media/fonts/cocogoose/Cocogoose\ Pro\ Semilight-trial.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'CocogooseSemiLightItalic';
+  src: url('./media/fonts/cocogoose/Cocogoose\ Pro\ Semilight\ Italic-trial.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'CocogooseThin';
+  src: url('./media/fonts/cocogoose/Cocogoose\ Pro\ Thin-trial.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'CocogooseThinItalic';
+  src: url('./media/fonts/cocogoose/Cocogoose\ Pro\ Thin\ Italic-trial.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'CocogooseUltraLight';
+  src: url('./media/fonts/cocogoose/Cocogoose\ Pro\ Ultralight-trial.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'CocogooseUltraLightItalic';
+  src: url('./media/fonts/cocogoose/Cocogoose\ Pro\ UltraLight\ Italic-trial.ttf')  format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'beyond_the_mountain';
+  src: url('./media/fonts/beyondTheMountains/beyond_the_mountains.ttf')  format('truetype');
 }

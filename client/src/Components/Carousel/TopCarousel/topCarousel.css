@@ -1,0 +1,19 @@
+.hostTC {
+     
+}
+
+.carousel-control-prev {
+    width: 5%;
+}
+
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 10px;
+    background-color: #898989;
+}

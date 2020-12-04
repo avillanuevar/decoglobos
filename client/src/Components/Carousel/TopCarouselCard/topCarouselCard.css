@@ -1,0 +1,44 @@
+.hostTCC {
+    height: 100%;
+    width: var(--carousel-width, 100vw);
+    position: relative;
+   
+}
+p {
+    margin: 0;
+}
+
+.cardImg {
+    position: absolute;
+    height: 100%;
+    width: var(--carousel-width, 100vw);
+    object-fit: cover;
+    z-index: -10;
+}
+
+.container {
+    margin:0 70px;
+    padding: 10vw 0;
+    height: calc(100% - 15vw);
+    width:  calc(var(--carousel-width, 100vw) - 15vw);
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.textContainer {
+    height: fit-content;
+}
+
+.cardTitle {
+    font-size: 70px;
+    font-family: 'CocogooseLight',sans-serif;
+    color: #65A5B8;
+}
+
+.cardSubTitle {
+    font-size: 45px;
+    font-family: "CocogooseThin",sans-serif;
+    color: #6EBDD7;
+}

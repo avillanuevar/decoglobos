@@ -1,0 +1,114 @@
+.home {
+  
+}
+
+.homeContent {
+    background-color: #F7F5F3;
+ }
+
+.topSection {
+    text-align: center;
+    padding-top: 20px;
+}
+.topSection h3 {
+    font-family: 'CocogooseLight';
+    font-size: 24px;
+    color: #999999;
+}
+.introSubSection {
+    display: flex;
+}
+
+.intro {
+    width: 50%;
+    height: 400px;
+}
+.intro img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.intro p {
+    font-size: 30px;
+    color: #E3953D;
+}
+
+.intro .variation {
+    font-size: 75px;
+    color: #CE71A5;
+    font-family: 'CocogooseLight';
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkDisplay {
+    display: flex;
+    height: 800px;
+    padding: 100px 18vw 0px;
+}
+
+.boxLinks {
+    width: 66%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.linkDisplay a:hover {
+    text-decoration: none;
+    color: #CE71A5;
+}
+
+.linkDisplay a {
+    text-decoration: none;
+    color: #999999; 
+}
+
+.elongatedLink {
+    width: 33%;
+    height: 100%;
+    text-align: center;
+}
+
+.boxLink {
+    height: 50%;
+    width: 50%;
+    text-align: center;  
+}
+
+.boxLink img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.boxLink p {
+    font-size: 28px;
+    font-family: 'CocogooseLight';
+    
+}
+
+.elongatedLink img {
+    width: 300px;
+    height: 650px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.textLink{
+    font-size: 28px;
+    font-family: 'CocogooseLight';
+    
+}
+
+.numberLink {
+    font-size: 28px;
+    font-family: sans-serif;
+}
+
