@@ -5,9 +5,6 @@ import "./topCarouselCard.css"
 class TopCarruselCard extends Component {
   constructor(props) {
     super(props);
-  
-    
-   
   }
 
   render() {

@@ -1,0 +1,95 @@
+.footer {
+    height: 360px;
+    padding: 0 80px;
+    margin-top: 20px;
+    display: flex;
+    color: #999999;
+}
+
+/* Footer left section (contact info, links & copyright) */
+.footer .left-section {
+    height: 100%;
+    width: 55%;
+    font-family: 'montserrat',sans-serif;
+}
+
+.footer .left-section .top-part {
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info-box {
+    padding-top: 112px;
+}
+
+.contact-info {
+    display: flex;
+    font-size: 19px;
+    margin-top: 33px;
+}
+
+.contact-info p {
+    margin-left: 30px;
+}
+
+.contact-info img {
+    height: 27px;
+    width: 33px;
+}
+
+.footer-link-box {
+    padding-top: 75px;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-size: 19px;
+    color: #999999;
+}
+
+.footer-link:hover{
+    color:  #e872a8;
+    text-decoration: none;
+}
+
+.selected-footer-link {
+    color:  #e872a8;
+}
+
+.footer-link-area {
+    text-align: center;
+    padding: 3px 0;
+}
+.footer .left-section .bottom-part {
+    height: 100px;
+}
+
+/* Footer right section (img & social media icons) */
+.footer .right-section {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    width: 45%;
+}
+
+.footer .right-section .footerImg {
+    position: absolute;
+    height: 100%;
+    width: 1256px;
+    right: 0;
+    z-index: -1;
+}
+
+.footer .right-section .footerIcons {
+    flex-flow: row-reverse;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-right: 40px;
+}
+
+.footer .right-section .footerIcons img{
+    margin-left:30px;
+}
+

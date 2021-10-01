@@ -8,9 +8,15 @@ class Navigation extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selected : 'home'
+      goBa
     }
    
+  }
+
+  _changeUrl(e) {
+    let newUrl = e.currentTarget.id;
+    this.props.changeLoation(newUrl)
+    console.log(window.location.pathname)
   }
 
   render() {
@@ -22,19 +28,19 @@ class Navigation extends Component {
           </div>  
           <div className='link-box'>
             <div className='box'>
-            <Link onClick={()=>this.setState({selected:'home'})} className={this.state.selected === 'home'?'selected link':'link'} to='/'>HOME</Link>
+            <Link id='/' onClick={this._changeUrl.bind(this)}  className={this.props.location === '/'?'selected link':'link'} to='/'>HOME</Link>
             </div>
             <div className='box'>
-            <Link onClick={()=>this.setState({selected:'decorations'})} className={this.state.selected === 'decorations'?'selected link':'link'} to='/decoraciones'>DECORACIONES</Link>
+            <Link id='/decoraciones' onClick={this._changeUrl.bind(this)}  className={this.props.location === '/decoraciones'?'selected link':'link'} to='/decoraciones'>DECORACIONES</Link>
             </div>
             <div className='box'>
-            <Link onClick={()=>this.setState({selected:'gifts'})} className={this.state.selected === 'gifts'?'selected link':'link'} to='/regalos'>REGALOS</Link>
+            <Link id='/regalos' onClick={this._changeUrl.bind(this)}  className={this.props.location === '/regalos'?'selected link':'link'} to='/regalos'>REGALOS</Link>
             </div>
             <div className='box'>
-            <Link onClick={()=>this.setState({selected:'aboutUs'})} className={this.state.selected === 'aboutUs'?'selected link':'link'} to='/sobreNosotros'>SOBRE NOSOTROS</Link>
+            <Link id='/sobreNosotros' onClick={this._changeUrl.bind(this)}  className={this.props.location === '/sobreNosotros'?'selected link':'link'} to='/sobreNosotros'>SOBRE NOSOTROS</Link>
             </div>
             <div className='box contact'>
-            <Link onClick={()=>this.setState({selected:'contact'})} className={this.state.selected === 'contact'?'selected link':'link'} to='/contactanos'>CONTÁCTANOS</Link>
+            <Link id='/contactanos' onClick={this._changeUrl.bind(this)} className={this.props.location === '/contactanos'?'selected link':'link'} to='/contactanos'>CONTÁCTANOS</Link>
             </div>
           </div>
         </div>

@@ -1,0 +1,37 @@
+.over-title-message {
+    display: flex;
+    align-items: center;
+    height: 160px;
+    justify-content: space-around;
+    background-color: #F7F5F3;
+}
+
+.over-title-message p {
+    margin: 0;
+    font-family: 'montserrat',sans-serif;
+    font-size: 24px;
+    color: #999;
+}
+
+.decorations-title-box {
+    background-color: #E3F56F;
+    text-align: center;
+    color: #6EBDD7;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.decorations-title-box h1 {
+   font-size: 57px;
+   font-family: 'CocogooseLight';
+   letter-spacing: 5px;
+   margin-bottom: 30px;
+}
+
+.decorations-title-box p {
+    font-family: 'CocogooseLight';
+    font-size: 13px;
+ }
+ .form {
+     font-family: sans-serif;
+ }

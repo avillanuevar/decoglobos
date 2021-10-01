@@ -82,8 +82,8 @@
 }
 
 .boxLink img {
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
     object-fit: cover;
     border-radius: 2px;
 }
@@ -91,20 +91,21 @@
 .boxLink p {
     font-size: 28px;
     font-family: 'CocogooseLight';
+    margin-top: 10px;
     
 }
 
 .elongatedLink img {
-    width: 300px;
-    height: 650px;
+    width: 275px;
+    height: 625px;
     object-fit: cover;
     border-radius: 2px;
+    margin-bottom: 10px;
 }
 
 .textLink{
     font-size: 28px;
     font-family: 'CocogooseLight';
-    
 }
 
 .numberLink {

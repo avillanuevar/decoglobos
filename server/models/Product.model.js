@@ -1,12 +1,21 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const userSchema = new Schema(
+const productSchema = new Schema(
   {
     description: String,
     imageUrl: String,
-    type: ["decoracion","arreglo"],
-    price:String
+    productType: {
+      type: String,
+      default: "balloon",
+      enum: ["balloon", "flowers","decorations"]
+    },
+    price:Number,
+    size: {
+      type: String,
+      default: "M",
+      enum: ["XS", "S","M","L","XL"]
+    }
     },
   {
     timestamps: true
